@@ -73,6 +73,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_BLACKLIST" />
     <uses-permission android:name="android.permission.CHANGE_PHONE_BLACKLIST" />
     <uses-permission android:name="android.permission.CHANGE_HEADS_UP_STATE" />
+    <uses-permission android:name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS" />
 
     <permission
         android:name="android.permission.REQUEST_SUPERUSER"
@@ -1237,7 +1238,7 @@
                 android:label="@string/device_status_activity_title"
                 android:theme="@style/Theme.DialogWhenLarge"
                 android:process="com.android.phone">
-        
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
