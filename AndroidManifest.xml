@@ -72,11 +72,7 @@
     <uses-permission android:name="android.permission.CHANGE_PRIVACY_GUARD_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_BLACKLIST" />
     <uses-permission android:name="android.permission.CHANGE_PHONE_BLACKLIST" />
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.CHANGE_HEADS_UP_STATE" />
-=======
-    <uses-permission android:name="com.cyanogen.permission.REQUEST_KILL_SWITCH_OP" />
->>>>>>> a868b4b44cd (Settings: add killswitch logic to factory reset screen)
 
     <permission
         android:name="android.permission.REQUEST_SUPERUSER"
