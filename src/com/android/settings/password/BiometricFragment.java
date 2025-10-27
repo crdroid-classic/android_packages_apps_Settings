@@ -140,7 +140,6 @@ public class BiometricFragment extends InstrumentedFragment {
                 .setDisallowBiometricsIfPolicyExists(
                         promptInfo.isDisallowBiometricsIfPolicyExists())
                 .setReceiveSystemEvents(true)
-                .setClassNameIfItIsConfirmDeviceCredentialActivity()
                 .build();
     }
 
